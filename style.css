@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);
+}
+
+header p, li {
+	text-transform: uppercase;
+}
+
+.active {
+	background: #267871;
+	color: #fff;
+}
+
+header {
+	min-height: 200px;
+	padding: 20px;
+	background: #136a8a;
+	background: -webkit-linear-gradient(to bottom, #267871, #136a8a);
+	background: linear-gradient(to bottom, #267871, #136a8a);
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+	color: #fff;
+	text-align: center;
+}
+
+#pickedColor {
+	margin: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 34px;
+}
+
+nav {
+	margin: 0 10px;
+	background: #fff;
+}
+
+.nav {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li {
+	padding: 7.5px;
+	display: inline-block;
+	transition: all 0.5s ease;
+}
+
+li#message {
+	display: none;
+	font-size: 1.2em;
+	color: #267871;
+	font-weight: bold;
+}
+
+li.levels {
+	justify-self: flex-end;
+}
+
+.levels ul {
+	padding: 0;
+}
+
+.levels li {
+	margin-right: 5px;
+}
+
+li#restart:hover, .levels li:hover, .selected {
+	background: #267871;
+	opacity: 0.6;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.board {
+	background: #29323c;
+	padding: 30px;
+}
+
+.boxes {
+	max-width: 500px;
+	max-height: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 20px;
+	border: 3px solid rgba(255,255,255,0.2);
+	border-radius: 10px;
+	padding-bottom: 10px;
+	transition: all 0.5s ease;
+}
+
+footer {
+	margin: 0;
+	padding: 20px;
+	background: #29323c;
+	text-align: center;
+	font-size: 12px;
+}
