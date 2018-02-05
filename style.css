@@ -92,7 +92,6 @@ li#restart:hover, .levels li:hover, .selected {
 
 .boxes {
 	max-width: 500px;
-	max-height: 500px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
