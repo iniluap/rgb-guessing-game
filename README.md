@@ -1,3 +1,5 @@
+![02/2018](https://img.shields.io/badge/created-02%2F2018-blue.svg)
+
 # rgb-guessing-game
 A simple guessing game with RGB colors written in pure JavaScript.
 
