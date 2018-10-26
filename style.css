@@ -34,7 +34,13 @@ header {
 	margin: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	font-size: 34px;
+	font-size: 20px;
+}
+
+@media (min-width: 476px) {
+	#pickedColor {
+		font-size: 34px;
+	}
 }
 
 nav {
@@ -99,13 +105,20 @@ li#restart:hover, .levels li:hover, .selected {
 }
 
 .box {
-	height: 150px;
-	width: 150px;
+	height: 75px;
+	flex-basis: 100%;
 	margin-bottom: 20px;
 	border: 3px solid rgba(255,255,255,0.2);
 	border-radius: 10px;
 	padding-bottom: 10px;
 	transition: all 0.5s ease;
+}
+
+@media (min-width: 476px) {
+	.box {
+		flex-basis: 150px;
+		height: 150px;
+	}
 }
 
 footer {
